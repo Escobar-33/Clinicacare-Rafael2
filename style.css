@@ -1,0 +1,12 @@
+body {
+    background-color: #f5f7fa;
+}
+
+h1, h2 {
+    color: #1d4ed8;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px #00000022;
+}

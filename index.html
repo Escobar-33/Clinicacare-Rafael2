@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcar Consulta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Agendamento de Consultas</h1>
+
+        <form id="formAgendamento">
+            <label>Nome do Paciente:</label>
+            <input type="text" id="nome" required>
+
+            <label>Médico:</label>
+            <select id="medico" required>
+                <option value="">Selecione...</option>
+                <option value="Dr. João Cardoso">Dr. João Cardoso</option>
+                <option value="Dra. Ana Silva">Dra. Ana Silva</option>
+                <option value="Dr. Pedro Almeida">Dr. Pedro Almeida</option>
+            </select>
+
+            <label>Data:</label>
+            <input type="date" id="data" required>
+
+            <label>Hora:</label>
+            <input type="time" id="hora" required>
+
+            <button type="submit">Marcar Consulta</button>
+        </form>
+
+        <h2>Consultas Marcadas</h2>
+        <ul id="listaConsultas"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
